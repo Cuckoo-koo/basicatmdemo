@@ -18,9 +18,10 @@ int main()
     if(userpin != pass)
     {
         printf("Login Failed!\n");
-         printf("Login Successful!\n");
         return 0;
     }
+    else
+    { printf("Login Successful!\n");}
 
    
 
